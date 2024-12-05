@@ -19,6 +19,7 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
+        //Verifica que el nombre del paquete del contexto de la aplicación coincida con el valor esperado.
         assertEquals("com.example.ejemplogit", appContext.packageName)
     }//hola que tal
 }
