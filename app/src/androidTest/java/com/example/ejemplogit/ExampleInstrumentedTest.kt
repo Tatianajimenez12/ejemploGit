@@ -7,7 +7,7 @@ import org.junit.Test
 import org.junit.runner.RunWith
 
 import org.junit.Assert.*
-
+// Prueba instrumentada que se ejecutará en un dispositivo Android.
 /**
  * Instrumented test, which will execute on an Android device.
  *
